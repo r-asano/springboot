@@ -36,8 +36,8 @@ public class ItemService {
 	}
 
 	@Transactional
-	public void delete(Item item ) {
-		itemMapper.delete(item);
+	public void delete(Long id ) {
+		itemMapper.delete(id);
 	}
 
 }

@@ -16,5 +16,5 @@ public interface ItemMapper {
 
 	void update(Item item);
 
-	void delete(Item item);
+	void delete(Long id);
 }
