@@ -4,4 +4,4 @@ CREATE TABLE IF NOT EXISTS sampledb.item (
 	price real,
 	vendor varchar(255),
 	PRIMARY KEY (id)
-);
+) DEFAULT CHARSET=utf8;
